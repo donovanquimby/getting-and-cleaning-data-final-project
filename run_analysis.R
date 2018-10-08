@@ -4,6 +4,7 @@
 
 # Load Rrequired libraries
 
+
 library(downloader)
 library(dplyr)
 library(data.table)
@@ -118,4 +119,4 @@ summarisedMeans <- comb %>% group_by(subject,activity) %>% summarise_all(mean) %
 #   -----------------------------------------------------------------------
 
 write.table(summarisedMeans, "tidy_data.txt", row.names = FALSE, 
-        quote = FALSE, sep=",")
+        quote = FALSE)

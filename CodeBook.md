@@ -5,7 +5,7 @@
 The descriptions in this document apply to the "tidy_data.txt" file contained in this repository.
 
 ## Data Structure
-"tidy_data.txt" is comma separated value file (CSV) with a single header row containing the descriptive name of 81 variables which are described below. It contains 180 rows of observations which represent the mean of each variable for each activity and each subject of a much larger data set
+"tidy_data.txt" is a space " " seperated data file with a single header row containing the descriptive name of 81 variables which are described below. It contains 180 rows of observations which represent the mean of each variable for each activity and each subject of a much larger data set
 
 ## General Description of Data
 (taken from : http://archive.ics.uci.edu/ml/datasets/Human+Activity+Recognition+Using+Smartphones#)
